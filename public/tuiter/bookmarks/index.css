@@ -162,3 +162,7 @@
 .wd-width {
   max-width: 600px;
 }
+
+.wd-pad-bottom-img-text {
+  padding-bottom: 12px;
+}
