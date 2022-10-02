@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+.wd-border {
+  border: solid rgb(47,51,54) 1px;
+}
+
+.wd-pos-rel {
+  position: relative;
+}
+
+.wd-left-16px {
+  margin-left: 16px;
+}
+
+.wd-white-color {
+  color: white;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.wd-clear-both {
+  clear: both;
+}
+
+.wd-font-family {
+  font-family: Arial;
+}

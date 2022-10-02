@@ -1,0 +1,87 @@
+.wd-border {
+  border: solid rgb(47,51,54) 1px;
+}
+
+ .wd-offset {
+   left: 16px;
+ }
+
+ .wd-search-bar {
+   width: 88%;
+   height: 30px;
+   border-radius: 20px;
+   color: white;
+   background-color: darkgray;
+ }
+
+.wd-gear {
+  margin-right: 12px;
+  color: rgb(29,161,242);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.wd-padding {
+  padding-top: 5px;
+}
+
+.wd-link-padding {
+  padding: 16px;
+}
+
+.wd-selected-color {
+  color: rgb(29,161,242);
+}
+
+.wd-link-color {
+  color: rgb(110,118,125);
+}
+
+
+.wd-remove-ul-style {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wd-display-inline-block {
+  display: inline-block;
+}
+
+.wd-links {
+  font-size: 15px;
+}
+
+.wd-remove-text-decoration {
+  text-decoration: none;
+}
+
+.wd-selected-border {
+  border-bottom: solid rgb(29,161,242) 4px;
+  padding-bottom: 13px;
+}
+
+.wd-white-color {
+  color: white;
+  padding-top: 3px;
+}
+
+.wd-trending-text {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 13px;
+  color: rgb(110,118,125);
+}
+
+.wd-post-image {
+  top: 10px;
+  position: relative;
+  float: right;
+  right: 16px;
+  border-radius: 20px;
+}
+
+.wd-auto-height {
+  height: 120px;
+}
+
