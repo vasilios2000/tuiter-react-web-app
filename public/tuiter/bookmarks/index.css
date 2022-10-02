@@ -91,6 +91,8 @@
 }
 
 .wd-main-post {
+  margin-right: 16px;
+  margin-bottom: 12px;
   color: white;
   font-size: 15px;
 }
@@ -106,15 +108,17 @@
 }
 
 .wd-f-title {
-  padding: 12px;
   color: white;
   font-size: 15px;
 }
 
 .wd-f-text {
-  padding: 12px;
   font-size: 15px;
   color: darkgray;
+}
+
+.wd-12px-padding {
+  padding: 12px;
 }
 
 .wd-round-bottom {
