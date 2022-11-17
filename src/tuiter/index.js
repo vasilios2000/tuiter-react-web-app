@@ -12,7 +12,7 @@ import { configureStore }
 import {Provider} from "react-redux";
 import navReducer from "./reducers/nav-reducer";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, nav: navReducer }});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer, nav: navReducer }});
 
 function Tuiter() {
   return (

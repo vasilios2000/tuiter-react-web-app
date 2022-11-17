@@ -2,7 +2,7 @@ import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "./TuitStats";
 import {BsFillCheckCircleFill} from 'react-icons/bs'
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -11,7 +11,7 @@ const TuitItem = (
 ) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   }
 
   return(
@@ -23,7 +23,7 @@ const TuitItem = (
           <div className="col-10">
             <i className="bi bi-x-lg float-end"
                onClick={() => deleteTuitHandler(tuit._id)}></i>
-            <div><span className={"fw-bold"}>{tuit.userName}</span> <BsFillCheckCircleFill color={"blue"}/> {tuit.handle} . {tuit.time}</div>
+            <div><span className={"fw-bold"}>{tuit.userName}</span> <BsFillCheckCircleFill color={"blue"}/> {tuit.handle} - {tuit.time}</div>
             <div>{tuit.tuit}</div>
             <div>
               <TuitStats key={tuit._id} tuit={tuit}/>
