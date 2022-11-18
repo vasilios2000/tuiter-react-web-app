@@ -51,13 +51,15 @@ const TuitStats = ({tuit}) => {
           </div>
           <div className="col-2">
             <i onClick={tuitLikeHandler}>
-              {tuit.liked? <AiFillHeart color={"red"}/> : <AiFillHeart/>}   {tuit.likes}
+              {tuit.liked? <AiFillHeart color={"red"}/> : <AiFillHeart/>}
             </i>
+            {tuit.likes}
           </div>
           <div className="col-2">
             <i onClick={tuitDislikeHandler}>
-              {tuit.disliked? <AiFillDislike color={"blue"}/> : <AiFillDislike/>}   {tuit.dislikes}
+              {tuit.disliked? <AiFillDislike color={"blue"}/> : <AiFillDislike/>}
             </i>
+            {tuit.dislikes}
           </div>
           <div className="col-2">
             <AiOutlineShareAlt/>
