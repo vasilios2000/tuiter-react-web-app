@@ -15,10 +15,6 @@ function App() {
                    element={<HelloWorld/>}/>
             <Route path="/tuiter"
                    element={<Tuiter/>}/>
-            <Route path="/tuiter/home"
-                   element={<Tuiter/>}/>
-            <Route path="/tuiter/explore"
-                   element={<Tuiter/>}/>
           </Routes>
         </div>
       </BrowserRouter>
