@@ -23,7 +23,7 @@ const TuitItem = (
           <div className="col-10">
             <i className="bi bi-x-lg float-end"
                onClick={() => deleteTuitHandler(tuit._id)}></i>
-            <div><span className={"fw-bold"}>{tuit.userName}</span> <BsFillCheckCircleFill color={"blue"}/> {tuit.handle} - {tuit.time}</div>
+            <div><span className={"fw-bold"}>{tuit.username}</span> <BsFillCheckCircleFill color={"blue"}/> {tuit.handle} - {tuit.time}</div>
             <div>{tuit.tuit}</div>
             <div>
               <TuitStats key={tuit._id} tuit={tuit}/>
